@@ -1,7 +1,7 @@
 
-# 一个基于LSP的DevUI组件库插件
+# 一个 DevUI 组件库插件
 
-- 欢迎使用DevUIHelper!
+- 欢迎使用 DevUIHelper!
 - 您可以享受到丝滑的代码补全体验！
 
 ### 您将拥有基于文档的优秀提示！
@@ -18,14 +18,14 @@
 
 #### 说明
 
-这个组件面向DevUI组件库的开发者，将提供有关于DevUI开源组件库的一系列帮助，包括:
+这个组件面向 DevUI 组件库的开发者，将提供有关于 DevUI 开源组件库的一系列帮助，包括:
 #####  代码提示
 
-- 提供组件、指令及他们的属性的补全代码，采用了webstorm的提示样式，更易上手。
-- 为devui团队提供定制化脚本，能够对组件意义进行提示。
-- 提供智能生成的snippet 在进行组件补全的时候会自动补全'必选'的属性。
+- 提供组件、指令及他们的属性的补全代码，采用了 webstorm 类似的提示样式，更易上手。
+- 为 DevUI 团队提供定制化脚本，能够对组件意义进行提示。
+- 提供智能生成的 snippet 在进行组件补全的时候会自动补全'必选'的属性。
   
-#####  悬浮提醒
+##### 悬浮提醒
 - 为devui团队提供定制化脚本，能够对组件意义进行提示。
 - 在悬浮到组件时，提示组件能够提供的所有属性。
 
@@ -35,7 +35,7 @@
 
 #### 定制化
 
-- 您可以在 Setting - Extension - DevUIHelper中修改配置包括：
+- 您可以在 Setting - Extension - DevUIHelper 中修改配置包括：
 > 语言： 目前只支持简体中文。
 > 是否开始悬停提示：默认为true。
 
@@ -50,12 +50,13 @@ Comming Soon..
 
 #### 帮助我们进行改进
 
-- 这个组件面向DevUI组件库的开发者，将提供有关于DevUI开源组件库的一系列帮助，包括:
-- 您也可以直接进入到<a herf="https://github.com/sspku-yqLiu/DevUIHelper-LSP">我们的仓库</a>，提交Commit与PR！
+- 这个组件面向 DevUI 组件库的开发者，将提供有关于DevUI开源组件库的一系列帮助，包括:
+- 您也可以直接进入到<a herf="https://github.com/sspku-yqLiu/DevUIHelper-LSP">我们的仓库</a>，提交 Commit 与 Pull Request ！
 - 你可以在官网上传您的代码片段，如果配有图片就更好啦! 经过审核后，您的代码将会成为所有人的物料，开源让世界变得更好！
+> 物料系统正在开发中
 
 #### 关于DevUI
 
-- 本插件仓库:https://github.com/sspku-yqLiu/DevUIHelper-LSP 欢迎star!
-- DevUI官方网址:https://devui.design/home
-- DevUI组件库:https://github.com/DevCloudFE/ng-devui/issues
+- 本插件仓库: https://github.com/DevCloudFE/DevUIHelper 欢迎star!
+- DevUI官方网址: https://devui.design/home
+- DevUI组件库: https://github.com/DevCloudFE/ng-devui/issues
