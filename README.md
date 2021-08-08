@@ -1,62 +1,42 @@
+<p align="center"><a href="https://devui.design/home" target="_blank" rel="noopener noreferrer"><img alt="DevUI Logo" src="logo.svg?sanitize=true" width="180" style="max-width:100%;">
+</p>
+<p align="center">
+  <a href="https://github.com/DevCloudFE/DevUIHelper"><img src="https://img.shields.io/github/stars/DevCloudFE/DevUIHelper.svg?label=github%20stars" alt="Github Star"></a>
+</br>
+  <a href="README.md"><img src="https://img.shields.io/badge/document-English-blue" alt="Document"></a>
+  <a href="README_zh_CN.md"><img src="https://img.shields.io/badge/%E6%96%87%E6%A1%A3-%E4%B8%AD%E6%96%87-blue" alt="Document"></a>
+  <a href="https://marketplace.visualstudio.com/items?itemName=sspkuDevUI.devuihelper"><img src="https://img.shields.io/visual-studio-marketplace/v/sspkuDevUI.devuihelper" alt="version"></a>
+  <a href="https://marketplace.visualstudio.com/items?itemName=sspkuDevUI.devuihelper"><img src="https://img.shields.io/visual-studio-marketplace/i/sspkuDevUI.devuihelper" alt="installs"></a>
+</p>
 
-# 一个 DevUI 组件库插件
+<h1 align="center">DevUIHelper for DevUI Component</h1>
 
-- 欢迎使用 DevUIHelper!
-- 您可以享受到丝滑的代码补全体验！
 
-### 您将拥有基于文档的优秀提示！
+## Plug-in Features
 
+### Completing Tips
+Provides the automatic code completion function for components and instructions, automatically supplements mandatory parameters, and provides information about all APIs supported by components and instructions for selection.
 ![demo](https://s1.ax1x.com/2020/06/07/tRruQS.gif)
 
-### 使用表达式以快速的输入html
+### Hover Information 
+Hovers show information about the symbol/object that's below the mouse cursor, including application scenarios, supported API lists, and API details.
+![demo](hoverProvider.gif)
 
-![exp](https://s1.ax1x.com/2020/06/24/NagrDJ.gif)
+### Code error correction
+- Alerts when devui content is used and devui is not installed.
+- Alarm if no necessary entry is made under the devui tab.
 
-### 加入我们，一起构建拥有可视化的物料中心
+## Development and Debugging
+- Run `npm install` in the root directory.
+- Run `npm run compile` to compile client and server
+- Switches to the debug view.
+- Select `Launch Client` from the drop-down list.
+- Run the startup configuration.
+- If you also want to debug the server, use the startup configuration `Attach to Server`
 
-![source](https://s1.ax1x.com/2020/06/24/NagjxS.gif)
 
-#### 说明
+## Contribution
 
-这个组件面向 DevUI 组件库的开发者，将提供有关于 DevUI 开源组件库的一系列帮助，包括:
-#####  代码提示
+You are welcome to contribute your code or discuss your great ideas!
 
-- 提供组件、指令及他们的属性的补全代码，采用了 webstorm 类似的提示样式，更易上手。
-- 为 DevUI 团队提供定制化脚本，能够对组件意义进行提示。
-- 提供智能生成的 snippet 在进行组件补全的时候会自动补全'必选'的属性。
-  
-##### 悬浮提醒
-- 为devui团队提供定制化脚本，能够对组件意义进行提示。
-- 在悬浮到组件时，提示组件能够提供的所有属性。
-
-##### 代码纠错
-- 在使用devui内容且未安装devui时报警。
-- 在devui标签下没有输入必要内容时报警。
-
-#### 定制化
-
-- 您可以在 Setting - Extension - DevUIHelper 中修改配置包括：
-> 语言： 目前只支持简体中文。
-> 是否开始悬停提示：默认为true。
-
-#####  跳转帮助
-Comming Soon..
-
-#### 下载方式
-
-- 您可以在<a herf="https://marketplace.visualstudio.com/items?itemName=yqLiu.devui-language-support&ssr=false">vscode的插件库</a>进行下载。
-
-- 若要下载不同的版本，可在vscode的历史版本中寻找，或访问<a herf="https://github.com/sspku-yqLiu/DevUIHelper-LSP/releases/">Release</a>寻求进一步的帮助。
-
-#### 帮助我们进行改进
-
-- 这个组件面向 DevUI 组件库的开发者，将提供有关于DevUI开源组件库的一系列帮助，包括:
-- 您也可以直接进入到<a herf="https://github.com/sspku-yqLiu/DevUIHelper-LSP">我们的仓库</a>，提交 Commit 与 Pull Request ！
-- 你可以在官网上传您的代码片段，如果配有图片就更好啦! 经过审核后，您的代码将会成为所有人的物料，开源让世界变得更好！
-> 物料系统正在开发中
-
-#### 关于DevUI
-
-- 本插件仓库: https://github.com/DevCloudFE/DevUIHelper 欢迎star!
-- DevUI官方网址: https://devui.design/home
-- DevUI组件库: https://github.com/DevCloudFE/ng-devui/issues
+Thanks to all the contributors who helped us build DevUI
