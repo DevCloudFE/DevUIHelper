@@ -16,11 +16,11 @@
 
 ### Completing Tips
 Provides the automatic code completion function for components and instructions, automatically supplements mandatory parameters, and provides information about all APIs supported by components and instructions for selection.
-![hover](./hover-tips-example.gif)
+![completion](completion-example.gif)
 
 ### Hover Information 
 Hovers show information about the symbol/object that's below the mouse cursor, including application scenarios, supported API lists, and API details.
-![demo](hoverProvider.gif)
+![hover](hover-tips-example.gif)
 
 ### Code error correction
 - Alerts when devui content is used and devui is not installed.
