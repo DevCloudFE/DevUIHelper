@@ -16,11 +16,11 @@ DevUIHelper为 <a href="https://devui.design/components/get-start" target="_blan
 
 ###  代码提示补全
 为组件和指令提供了代码自动补全功能，自动补全必选参数，提供组件/指令支持的所有API信息进行选择
-![demo](completion-example.gif)
+![completion](completion-example.gif)
 
 ### 悬浮提醒
 提供悬浮提示信息，包括使用场景，支持API列表，API详情等关键信息
-![demo](hover-tips-example.gif)
+![hover](hover-tips-example.gif)
 
 ### 代码纠错
 - 在使用devui内容且未安装devui时报警。
