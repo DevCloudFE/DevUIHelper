@@ -16,7 +16,7 @@
 
 ### Completing Tips
 Provides the automatic code completion function for components and instructions, automatically supplements mandatory parameters, and provides information about all APIs supported by components and instructions for selection.
-![demo](https://s1.ax1x.com/2020/06/07/tRruQS.gif)
+![hover](./hover-tips-example.gif)
 
 ### Hover Information 
 Hovers show information about the symbol/object that's below the mouse cursor, including application scenarios, supported API lists, and API details.
